@@ -1,30 +1,29 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This program demonstrates a basic understanding of Java by creating a window that feature a very basic
+gui that displays input from the user. This file can be run from TestInput.java without any issues.
 
-{Provide a description the software that you wrote to demonstrate the Java language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
+Right now, there are two possible functionalities of the window, displaying either the last key pressed,
+or the directional input using wasd (shown using numpad notation). You can uncomment the code there to
+toggle which functionality it currently has.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+Language Used:
+* Java
 
-{Describe the programming language that you used and any libraries.}
+Libraries Used:
+* java.awt
+* javax.swing
+
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Oracle](https://docs.oracle.com/javase/tutorial/uiswing/events/intro.html)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Separate the two buttons so they work independantly
+* Create a more intuitive visual display for which direction is being pressed
